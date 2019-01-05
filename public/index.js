@@ -7,15 +7,15 @@ const message = document.querySelector('#message'),
           btn = document.querySelector('#btn'),
        output = document.querySelector('#output')
 
-btn.addEventListener('submit', (e) => {
+btn.addEventListener('click', (e) => {
   // e.preventDefault() // prevents page reload
-
+  console.log('clicked')
   socket.emit('msg', {
     handle: handle.value,
     message: message.value
   })
 
-  message.innerHTML = ''
+  message.value = ''
 })
 
 socket.on('get-msg', (msg) => {
