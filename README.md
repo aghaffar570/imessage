@@ -12,7 +12,7 @@ npm install
 ## usage
 
 ```
-npm run start:dev
+node index.js
 ```
 
 open localhost on two different browsers or machine and chat with imessage 
