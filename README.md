@@ -6,7 +6,6 @@ The webpage displays an imessage interface for texting from different browsers /
 
 ```
 npm install
-
 ```
 
 ## usage
